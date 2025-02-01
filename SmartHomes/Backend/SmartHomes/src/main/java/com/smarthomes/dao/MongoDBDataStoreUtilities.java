@@ -15,7 +15,7 @@ public class MongoDBDataStoreUtilities {
 
     public MongoDBDataStoreUtilities() {
         try {
-            mongoClient = MongoClients.create("mongodb+srv://Waseem1:testewa@cluster0.a7zbb.mongodb.net");
+            mongoClient = MongoClients.create("mongodb+srv://******1:testewa@cluster0.a7zbb.mongodb.net");
             System.out.println("MongoDB connection established.");
         } catch (MongoException e) {
             System.err.println("Error establishing MongoDB connection: " + e.getMessage());
